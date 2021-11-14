@@ -1,1 +1,3 @@
 https://share.streamlit.io/shaviru/covid-dashboard/main/run.py
+
+credits to @mhmenze who made the original project
