@@ -1,7 +1,7 @@
 from libraries import *
 import streamlit as st
 
-st.title('COVID Data Visualization Dashboard')
+st.title('Covid-19 Data Visualization Dashboard')
 countries = ['Sri Lanka', 'United States', 'United Kingdom', 'Italy', 'India', 'China']
 country_code = {'Sri Lanka': 'lk', 'United States': 'us',
                 'United Kingdom': 'gb', 'China': 'cn', 'India': 'in', 'Italy': 'it'}
