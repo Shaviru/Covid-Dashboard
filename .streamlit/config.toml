@@ -1,2 +1,4 @@
 [theme]
-base="dark"
+backgroundColor="#000000"
+secondaryBackgroundColor="#252525"
+textColor="#ffffff"
