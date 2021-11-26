@@ -1,6 +1,17 @@
 from libraries import *
 import streamlit as st
 
+main_bg = "corona.jpg"
+main_bg_ext = "jpg"
+
+st.markdown(
+    f"""
+    <style>
+    .reportview-container {{
+        background: url(data:image/{main_bg_ext};base64,{base64.b64encode(open(main_bg, "rb").read()).decode()})
+    }}""",
+    unsafe_allow_html=True
+)
 st.title('COVID Data Visualization Dashboard')
 countries = ['Sri Lanka', 'United States', 'United Kingdom', 'Italy', 'India', 'China']
 country_code = {'Sri Lanka': 'lk', 'United States': 'us',
