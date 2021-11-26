@@ -2,15 +2,6 @@ from libraries import *
 import streamlit as st
 
 st.title('COVID Data Visualization Dashboard')
-page_bg_img = '''
-<style>
-body {
-background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
-background-size: cover;
-}
-</style>
-'''
-
 st.markdown(page_bg_img, unsafe_allow_html=True)
 countries = ['Sri Lanka', 'United States', 'United Kingdom', 'Italy', 'India', 'China']
 country_code = {'Sri Lanka': 'lk', 'United States': 'us',
