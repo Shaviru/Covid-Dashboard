@@ -50,3 +50,5 @@ col3.metric('Yesterday Recoveries', yesterday_recoveries)
 st.line_chart(daily_df[data_type])
 
 st.video('https://www.youtube.com/watch?v=5DGwOJXSxqg')
+st.write("Made by SIL of Meu Labs")
+st.write("Version 1.0")
