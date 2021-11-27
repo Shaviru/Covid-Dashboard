@@ -2,7 +2,7 @@ from libraries import *
 import streamlit as st
 import base64
 
-main_bg = r"C:\Users\Shavi\OneDrive\Desktop\Shaviru\Coding\Covid_Dashboard\corona.png"
+main_bg = r"corona.png"
 main_bg_ext = "png"
 
 st.markdown(
