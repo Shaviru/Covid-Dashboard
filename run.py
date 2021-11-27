@@ -23,6 +23,8 @@ country = st.sidebar.selectbox('Select Country', countries)
 
 days = st.sidebar.slider('Select Days', min_value=1, max_value=90)
 data_type = st.sidebar.multiselect('Select data type', data_types)
+st.write("Made by SIL of Meu Labs")
+st.write("Version 1.0")
 
 total_cases = get_historic_cases(country, str(days))
 total_deaths = get_historic_deaths(country, str(days))
@@ -50,5 +52,3 @@ col3.metric('Yesterday Recoveries', yesterday_recoveries)
 st.line_chart(daily_df[data_type])
 
 st.video('https://www.youtube.com/watch?v=5DGwOJXSxqg')
-st.write("Made by SIL of Meu Labs")
-st.write("Version 1.0")
