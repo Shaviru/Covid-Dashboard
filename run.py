@@ -2,8 +2,8 @@ from libraries import *
 import streamlit as st
 import base64
 
-main_bg = "corona.jpg"
-main_bg_ext = "jpg"
+main_bg = "corona.png"
+main_bg_ext = "png"
 
 st.markdown(
     f"""
