@@ -51,5 +51,5 @@ st.line_chart(daily_df[data_type])
 
 st.video('https://www.youtube.com/watch?v=5DGwOJXSxqg')
 
-st.subheader("Made by SIL of Meu Labs")
+st.subheader("Made by SIL")
 st.subheader("Version 1.0")
