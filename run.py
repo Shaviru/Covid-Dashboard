@@ -18,7 +18,7 @@ st.title('COVID Data Visualization Dashboard')
 countries = ['Sri Lanka', 'United States', 'United Kingdom', 'Italy', 'India', 'China']
 country_code = {'Sri Lanka': 'lk', 'United States': 'us',
                 'United Kingdom': 'gb', 'China': 'cn', 'India': 'in', 'Italy': 'it'}
-data_types = ['cases', 'deaths', 'recovered']
+data_types = ['cases', 'deaths']
 
 country = st.sidebar.selectbox('Select Country', countries)
 
